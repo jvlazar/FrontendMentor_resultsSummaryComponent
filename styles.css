@@ -35,13 +35,18 @@
 body {
     display: block;
     margin: auto;
+
 }
+
+.container {
+    height: 100vh;
+}
+
 
 .results {
     color: white;
     background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
-    padding: 1% 10%;
-    padding-bottom: 15%;
+    padding: 1vh 10vh;
     margin-left: auto;
     margin-right: auto;
     border-bottom-left-radius: 1em;
@@ -60,7 +65,7 @@ body {
     height: 7em;
     border-radius: 50%;
     margin: auto;
-    padding: 1% 1%;
+
     display: inline-block;
     align-items: center;
     justify-content: center;
@@ -76,6 +81,14 @@ body {
 .total_value {
     font-size: 16px;
     color: hsla(0, 0%, 100%, 0.3);
+}
+
+.descriptor {
+    font-weight: 800;
+}
+
+.description {
+    font-weight: 300;
 }
 
 .summary {
@@ -138,14 +151,15 @@ body {
 button {
     background-color: var(--dark-gray-blue);
     color: white;
-    border-radius: 1em;
     width: 100%;
-    padding: 3% 0;
+    padding: 5% 0;
     border-style: none;
+    border-radius: 2em;
     margin-bottom: 1%;
 }
 
 .attribution {
+    padding-top: 5%;
     font-size: 11px;
     text-align: center;
 }
