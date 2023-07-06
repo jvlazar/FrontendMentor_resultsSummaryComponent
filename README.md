@@ -28,6 +28,7 @@ Users should be able to:
 
 - Start this challenge mobile-first, then move onto desktop
 - Complete the challenge in as little time as possible
+- Learn to use CSS variables
 
 ### Screenshot
 
@@ -51,6 +52,8 @@ Users should be able to:
 ### What I learned
 
 - How to use VW and VH units to scale the elements on the page in accordance to the screen size
+- How to use CSS variables
+- How to use multiple class names for HTML elements in CSS
 
 ### Continued development
 

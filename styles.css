@@ -38,7 +38,9 @@ body {
 
 }
 
-
+h3{
+    font-size: 4vw;
+}
 
 
 .results {
@@ -54,7 +56,7 @@ body {
 
 .results h3 {
     font-weight: 500;
-    font-size: 3vw;
+    
     color: hsla(0, 0%, 100%, 0.8);
 }
 
@@ -100,6 +102,8 @@ body {
 }
 
 
+
+
 .box {
     display: grid;
     max-width: 100%;
@@ -108,11 +112,14 @@ body {
     padding: 0.5% 0;
     margin: 5% 0;
     border-radius: 1em;
+    font-size: 4vw;
 }
 
 
 .box img {
     margin: auto;
+    height: 4.5vw;
+    width: 4.5vw;
 }
 
 .score {
@@ -160,6 +167,7 @@ button {
     margin-bottom: 1%;
     font-weight: 700;
     letter-spacing: 0.1em;
+    font-size: 4vw;
 }
 
 .attribution {
@@ -256,7 +264,7 @@ button {
 
     .box img {
         max-width: 100%;
-        height: 3vh;
+        height: 2.5vw;
     }
 
     button {
